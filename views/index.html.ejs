@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Landing</title>
+  <meta name="description" content="">
+</head>
+<body>
+
+  <div class="layout template-home">
+
+    <header class="tw-mb-20">
+      <div class="tw-container tw-mx-auto">
+        <%= require('html-loader!./partials/_nav.html.ejs').default %>
+      </div>
+    </header>
+
+    <main class="tw-mb-20">
+      <section class="tw-container tw-mx-auto tw-mb-24">
+        <%= require('html-loader!./partials/_main-1.html.ejs').default %>
+      </section>
+
+      <section class="tw-container tw-mx-auto tw-mb-24">
+        <%= require('html-loader!./partials/_main-2.html.ejs').default %>
+      </section>
+
+      <section class="tw-container tw-mx-auto tw-mb-24">
+        <%= require('html-loader!./partials/_main-3.html.ejs').default %>
+      </section>
+
+      <section class="tw-container tw-mx-auto tw-mb-24">
+        <%= require('html-loader!./partials/_main-4.html.ejs').default %>
+      </section>
+
+      <section class="tw-container tw-mx-auto tw-mb-24">
+        <%= require('html-loader!./partials/_main-5.html.ejs').default %>
+      </section>
+
+      <section class="tw-container tw-mx-auto">
+        <%= require('html-loader!./partials/_main-6.html.ejs').default %>
+      </section>
+    </main>
+
+    <footer class="tw-bg-bg-dk">
+      <div class="tw-container tw-mx-auto">
+        <%= require('html-loader!./partials/_footer.html.ejs').default %>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>

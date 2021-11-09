@@ -1,0 +1,64 @@
+$color-black         : #000;
+$color-white         : #fff;
+
+// style
+
+$color-primary       : #7c4dff;
+$color-primary-yiq   : color-yiq($color-primary);
+
+$color-primary-lt    : lighten($color-primary, $brightness-xs);
+$color-primary-lter  : lighten($color-primary, $brightness-sm);
+
+$color-primary-dk    : darken($color-primary, $brightness-xs);
+$color-primary-dker  : darken($color-primary, $brightness-sm);
+
+$color-accent        : #00c853;
+$color-accent-yiq    : color-yiq($color-accent);
+
+$color-accent-lt     : lighten($color-accent, $brightness-xs);
+$color-accent-lter   : lighten($color-accent, $brightness-sm);
+
+$color-accent-dk     : darken($color-accent, $brightness-xs);
+$color-accent-dker   : darken($color-accent, $brightness-sm);
+
+// backgrounds
+
+$color-bg            : #212121;
+
+$color-bg-lt         : lighten($color-bg, $brightness-xs);
+$color-bg-lter       : lighten($color-bg, $brightness-sm);
+
+$color-bg-dk         : darken($color-bg, $brightness-xs);
+$color-bg-dker       : darken($color-bg, $brightness-sm);
+
+// borders
+
+$color-border        : #424242;
+
+$color-border-lt     : lighten($color-border, $brightness-xs);;
+$color-border-lter   : lighten($color-border, $brightness-sm);;
+
+$color-border-dk     : darken($color-border, $brightness-xs);
+$color-border-dker   : darken($color-border, $brightness-sm);
+
+// typography
+
+$color-link          : $color-primary;
+$color-link-hover    : darken($color-link, $brightness-base);
+$color-link-active   : darken($color-link, $brightness-lg);
+
+$color-heading       : color-yiq($color-bg);
+$color-body          : color-yiq($color-bg, lighten($color-heading, 40%), darken($color-heading, 40%));
+$color-subtle        : color-yiq($color-bg, lighten($color-heading, 56%), darken($color-heading, 56%));
+
+$color-icon          : color-yiq($color-bg, lighten($color-heading, 32%), darken($color-heading, 32%));
+
+// vendor
+
+$color-google        : #4285f4;
+$color-twitter       : #1da1f2;
+$color-facebook      : #3b5998;
+
+// maps
+
+$color-styles        : ('primary', 'accent');
